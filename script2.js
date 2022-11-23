@@ -9,7 +9,7 @@ const methods = {
     const currentYear = new Date().getFullYear();
     return currentYear - this.age;
   },
-  getFullInfo(title) {
+  getFullInfo(title = "") {
     return `${title} ${this.name} born in ${
       new Date().getFullYear() - this.age
     }`;
