@@ -1,4 +1,4 @@
-"Use strict";
+"use strict";
 
 // Let's create an object factory:
 // function NintendoHero(name, age) {
@@ -100,7 +100,7 @@ log(NintendoHero.getAllHeroesAttacks()); // => ...and we have what we need!
 
 const allAttacks = NintendoHero.getAllHeroesAttacks();
 
-for (val in allAttacks) {
+for (const val in allAttacks) {
   log(`${val}: `, NintendoHero.getHeroAttack(val));
 }
 
