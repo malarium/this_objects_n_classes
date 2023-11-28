@@ -1,5 +1,5 @@
 "use strict";
-const { log } = console;
+const { log, table } = console;
 
 // What is THIS keyword?
 // It refers to some object.
